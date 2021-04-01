@@ -16,5 +16,9 @@
         "@typescript-eslint"
     ],
     "rules": {
+        "semi": "off",
+        "comma-dangle": "off",
+        "no-tabs": ["error", { "allowIndentationTabs": true }],
+        "indent": "off"
     }
 }
