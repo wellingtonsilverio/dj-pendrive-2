@@ -25,7 +25,7 @@ function init() {
 
 		if (!command || command === '') return;
 
-		if (command) commands(command, args);
+		if (command) commands(message, command, args);
 
 		return;
 	});
